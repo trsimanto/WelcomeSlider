@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/slide_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/group10" />
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:text="Heading"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slide_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/slide_heading"
+        android:padding="30dp"
+        android:textColor="@color/colorTransparentWhite"
+        android:textSize="16sp"
+        android:lineSpacingExtra="10dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        tools:text="loyjflchjbdsljvh  hjdgvkjdbv jvhd;kjv jvh;kjfv djvhndffv  dsjvhnfv dfvh;nejv diovh'kjfvn'jkrgbfrg djfvh;njknkjbvjfv fvh;jonjdfvhioufe;hvofivbnf vovj;hfiofvhb;djfvbrfv ifvh;fvjbnjv ffdjvh;bjfebvjfbv;fv jdvkjdbsvbofvhbfdjvfddfvjhjnhfvfds dsfvjhoidfvhdfv dsvhohoidhvouidfshvfdv fvuhfdoivhfvn" />
+</RelativeLayout>
